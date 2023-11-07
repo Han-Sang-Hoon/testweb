@@ -16,7 +16,10 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    .\index.html
+    npm init -y
+    npm install express
+    node index.js
+    #npm install
+    #.\index.html
     #npm run build
   displayName: 'npm install and build'
